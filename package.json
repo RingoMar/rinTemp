@@ -1,0 +1,29 @@
+{
+    "name": "rinserver",
+    "version": "1.1.0",
+    "description": "A minimal app to check on my Linux server",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "pack": "electron-builder --dir",
+        "build": "electron-builder"
+    },
+    "repository": "--",
+    "keywords": [
+        "ringo"
+    ],
+    "build": {
+        "appId": "42090",
+        "mac": {
+            "category": "Help"
+        },
+        "icon": "icon.png"
+    },
+    "author": "ringomar",
+    "license": "CC0-1.0",
+    "devDependencies": {
+        "electron": "^13.1.7",
+        "electron-builder": "^22.11.7"
+    },
+    "private": true
+}
